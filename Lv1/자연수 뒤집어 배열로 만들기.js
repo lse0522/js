@@ -1,6 +1,6 @@
 // 문제 설명
 
-// 자연수 n을 뒤집어 각 자리 숫자를 원소로 가지는 배열 형태로 리턴해주세요.n을
+// 자연수 n을 뒤집어 각 자리 숫자를 원소로 가지는 배열 형태로 리턴해주세요.
 
 // 입출력 예
 // n : 12345 / return : [5,4,3,2,1]
@@ -18,4 +18,4 @@ for (let i = 0; i < n.length; i++) {
   answer.unshift(Number(n[i]));
 }
 
-console.log(answer)
+console.log(answer);
