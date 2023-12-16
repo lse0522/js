@@ -22,4 +22,6 @@ console.log( n % Math.sqrt(n))
     n % Math.sqrt(n) === 0 ? answer = ((Math.sqrt(n)+1) * (Math.sqrt(n)+1)) : answer = -1
 }
 
+answer = ( n % Math.sqrt(n) === 0 )? ((Math.sqrt(n)+1) * (Math.sqrt(n)+1)) : -1 
+
 console.log(answer)

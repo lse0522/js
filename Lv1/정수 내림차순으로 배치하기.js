@@ -15,8 +15,9 @@ var arr = n.toString().split("");
 console.log(arr.sort().reverse().join(""))
 
 
-// 배열을 오름차순으로 정렬을 한후, 배열의 순서를 반전합니다.
-// join을 이용해 각각의 배열을 하나의 가
+// 배열을 오름차순으로 sort를 통해 정렬을 한후, reverse를 이용해 배열의 순서를 반전합니다.
+// join을 이용해 각각의 배열의 요소를 연결해 하나의 문자열을 만들어 줍니다.
+// 현제 값은 문자열이기 때문에 Number을 이용해 숫자로 바꾸어 줍니다.
 answer = Number(arr.sort().reverse().join(""));
 console.log(typeof(answer))
 
