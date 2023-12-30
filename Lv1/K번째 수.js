@@ -7,16 +7,11 @@ let commands = [
 
 let answer = [];
 
-let num1 = 0;
-let num2 = 0;
-let num3 = 0;
+let newarr = [];
+
 
 for (let i = 0; i < commands.length; i++) {
-  console.log(commands[i]);
-  for (let j = 0; j < commands[i].length; j++) {
-    console.log(commands[i][j])
-      i = commands[i][j];
-      j = commands[i][j];
-      k = commands[i][2];
-  }
+  newarr = array.slice(commands[i][0] - 1, commands[i][1]).sort((a, b) => a - b);
+  answer.push(newarr[commands[i][2] -1]);
 }
+console.log(answer)
